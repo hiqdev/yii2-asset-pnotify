@@ -1,0 +1,12 @@
+package:
+    name:           yii2-asset-pnotify
+    label:          HiQDev-Yii2AssetPnotify
+    title:          Yii2 Asset Pnotify
+    type:           package
+    keywords:       yii2, asset, pnotify
+    namespace:      hiqdev\yii2\pnotify-asset
+    year:           2015
+
+require:
+    hiqdev/hidev-config:        "*"
+    hiqdev/hidev-config-php:    "*"
