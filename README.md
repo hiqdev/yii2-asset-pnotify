@@ -5,6 +5,7 @@ Yii2 Asset Pnotify
 
 [![Latest Stable Version](https://poser.pugx.org/hiqdev/yii2-asset-pnotify/v/stable.png)](https://packagist.org/packages/hiqdev/yii2-asset-pnotify)
 [![Total Downloads](https://poser.pugx.org/hiqdev/yii2-asset-pnotify/downloads.png)](https://packagist.org/packages/hiqdev/yii2-asset-pnotify)
+[![Dependency Status](https://www.versioneye.com/php/hiqdev:yii2-asset-pnotify/dev-master/badge.svg)](https://www.versioneye.com/php/hiqdev:yii2-asset-pnotify/dev-master)
 
 ## Installation
 
