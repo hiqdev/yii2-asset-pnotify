@@ -3,6 +3,8 @@ hiqdev/yii2-asset-pnotify commits history
 
 ## Under development
 
+    - 5c97366 2015-09-09 Added phpcsfixed (d.naumenko.a@gmail.com)
+    - 7c1e628 2015-09-09 Created Asset (d.naumenko.a@gmail.com)
     - e0a5751 2015-09-09 Namespaces changes (d.naumenko.a@gmail.com)
 - Added basics
     - 6804101 2015-09-09 Namespaces changes (d.naumenko.a@gmail.com)
