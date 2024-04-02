@@ -29,7 +29,10 @@ class PNotifyAsset extends AssetBundle
     /**
      * {@inheritdoc}
      */
-    public $css = [
+    public $css = YII_DEBUG ? [
+        'pnotify.core.css',
+        'pnotify.buttons.css',
+    ] : [
         'pnotify.core.min.css',
         'pnotify.buttons.min.css',
     ];
@@ -37,7 +40,10 @@ class PNotifyAsset extends AssetBundle
     /**
      * {@inheritdoc}
      */
-    public $js = [
+    public $js = YII_DEBUG ? [
+        'pnotify.core.js',
+        'pnotify.buttons.js',
+    ] : [
         'pnotify.core.min.js',
         'pnotify.buttons.min.js',
     ];
