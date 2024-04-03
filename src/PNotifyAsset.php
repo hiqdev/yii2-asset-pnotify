@@ -21,14 +21,7 @@ use yii\web\JqueryAsset;
  */
 class PNotifyAsset extends AssetBundle
 {
-    /**
-     * {@inheritdoc}
-     */
     public $sourcePath = '@bower/pnotify/src';
-
-    /**
-     * {@inheritdoc}
-     */
     public $css = YII_DEBUG ? [
         'pnotify.core.css',
         'pnotify.buttons.css',
@@ -36,10 +29,6 @@ class PNotifyAsset extends AssetBundle
         'pnotify.core.min.css',
         'pnotify.buttons.min.css',
     ];
-
-    /**
-     * {@inheritdoc}
-     */
     public $js = YII_DEBUG ? [
         'pnotify.core.js',
         'pnotify.buttons.js',
@@ -47,11 +36,10 @@ class PNotifyAsset extends AssetBundle
         'pnotify.core.min.js',
         'pnotify.buttons.min.js',
     ];
-
-    /**
-     * {@inheritdoc}
-     */
     public $depends = [
         JqueryAsset::class,
+    ];
+    public $publishOptions = [
+        'only' => ['*core*', '*button*'],
     ];
 }
